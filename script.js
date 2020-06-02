@@ -398,12 +398,15 @@ function renderScore() {
             }
 
             var rankData = document.createElement("td");
+            rankData.setAttribute("class", "rankingTable")
             rankData.textContent = i + 1;
 
             var nameData = document.createElement("td");
+            nameData.setAttribute("class", "nameTable")
             nameData.textContent = ranking[i].name;
 
             var scoreData = document.createElement("td");
+            scoreData.setAttribute("class", "pointsTable")
             scoreData.textContent = ranking[i].score;
 
             tableRow.appendChild(rankData);

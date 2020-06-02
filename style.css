@@ -17,9 +17,9 @@ body {
     border-radius: 35px;
 }
 
-th {
+/* th {
     width: 33%;
-}
+} */
 
 table {
     width: 100%;
@@ -79,4 +79,14 @@ table {
     align-content: center;
     text-align: center;
     font-size: larger;
+}
+
+.rankingTable {
+    width: 5%;
+}
+.nameTable {
+    width: 75%;
+}
+.pointsTable {
+    width: 20%;
 }
